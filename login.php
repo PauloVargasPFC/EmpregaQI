@@ -38,7 +38,6 @@
             <div class="cont_login">
                 <div class="formulario_login">
                     <form>
-                    <h1>tete</h1>
                         <h2 style="text-align: center; font-family: Poppins, sans-serif;">Login</h2>
                         <label for="inputEmail" class="visually-hidden"></label>
                         <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
