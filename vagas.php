@@ -42,44 +42,17 @@
       <nav class="nav-menu d-none d-lg-block">
         <ul>
           <li><a href="index.php">Início</a></li>
-          <li class="active"><a href="sobre.php">Sobre a Plataforma</a></li>
-          <li><a href="vagas.php">Vagas Disponíveis</a></li>
+          <li><a href="sobre.php">Sobre a Plataforma</a></li>
+          <li class="active"><a href="vagas.php">Vagas Disponíveis</a></li>
           <li><a href="login.php"><input type="button" class="btn btn-primary btn-sm" id="btn1" value="Login"></a></li>
         </ul>
-      </nav><!-- .nav-menu -->
+      </nav>
 
     </div>
-  </header><!-- End Header -->
+  </header>
 
   <main id="main">
-    <br>
-    <br>
-    <br>
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container">
-        <div class="section-title" data-aos="fade-up">
-          <h2>Quem Somos</h2>
-        </div>
-        <p class="font-italic" id="inf">
-          A plataforma Emprega QI foi criada com a inteção de auxiliar pessoas e empresas no porcesso de contratação para uma vaga de trabalho
-        </p>
-      </div>
-    </section><!-- End About Section -->
-
-  </main><!-- End #main -->
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-
-
-
-  <!-- ======= Footer ======= -->
+ 
   <footer id="footer">
 
     <div class="footer-top">
@@ -120,17 +93,14 @@
         &copy; Copyright <strong><span>EmpregaQI</span></strong>. Todos os direitos reservados
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
+
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- Vendor JS Files -->
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -142,7 +112,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
 
-  <!-- Template Main JS File -->
+
   <script src="assets/js/main.js"></script>
 
 </body>
