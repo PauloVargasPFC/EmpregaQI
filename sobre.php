@@ -43,7 +43,7 @@
         <ul>
           <li><a href="index.php">Início</a></li>
           <li class="active"><a href="sobre.php">Sobre a Plataforma</a></li>
-          <li><a href="">Como Funciona</a></li>
+          <li><a href="">Vagas Disponíveis</a></li>
           <li><a href="login.php"><input type="button" class="btn btn-primary btn-sm" id="btn1" value="Login"></a></li>
         </ul>
       </nav><!-- .nav-menu -->
