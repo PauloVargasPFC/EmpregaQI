@@ -11,7 +11,7 @@
 
     <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <link href="assets/css/login.css" rel="stylesheet">
+    <link href="assets/css/cadastro.css" rel="stylesheet">
 
 </head>
 
@@ -35,19 +35,28 @@
     </header>
     <main id="main">
         <section id="about" class="about">
-            <div class="cont_login">
-                <div class="formulario_login">
+            <div class="cadastro-form">
+            <h2 style="margin-top: 50px;">Cadastro</h2>
+                <div id="cad">
                     <form>
-                        <h2 style="text-align: center; font-family: Poppins, sans-serif;">Login</h2>
-                        <label for="inputEmail" class="visually-hidden"></label>
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
-                        <label for="inputPassword" class="visually-hidden"></label>
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
-                        <div class="checkbox mb-3">
-                        <label><input type="checkbox" value="remember-me"> Lembre-se</label>
+                        <input type="name" id="inputName" class="form-control" placeholder="Nome" style="margin-top: 20px;" required autofocus>
+                        <input id="inputCPF" class="form-control" style="margin-top: 10px;" placeholder="CPF/CNPJ" required>
+                        <input type="email" id="inputEmail" class="form-control" style="margin-top: 10px;" placeholder="Email" required autofocus>
+                        <input type="password" id="inputPassword" class="form-control" style="margin-top: 10px;" placeholder="Senha" required>
+                        <input type="password" id="inputPassword" class="form-control" style="margin-top: 10px;" placeholder="Confirmar Senha" required>
+                        <label style="margin-top: 10px;">Tipo de cadastro:</label>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" checked>
+                            <label class="form-check-label">
+                                Pessoa
+                            </label>
+                            <input class="form-check-input" type="radio" name="flexRadioDefault" style="margin-left: 10px;">
+                            <label class="form-check-label" style="margin-left: 30px;">
+                                Empresa
+                            </label>
                         </div>
-                        <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-                        <p>Não possui login ainda? <a href="cadastro.php">Cadastre-se</a></p>
+                        <button class="w-100 btn btn-lg btn-primary" style="margin-top: 10px;" type="submit">Cadastrar</button>
+                        <p>Já possui Cadastro?<a href="login.php"> Logar-se</a></p>
                     </form>
                 </div>
             </div>

@@ -47,13 +47,12 @@
                         <label><input type="checkbox" value="remember-me"> Lembre-se</label>
                         </div>
                         <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
-                        <p>Não possui login ainda? <a href="cadastro.php">Cadastre-se</a></p>
+                        <p>Não possui Cadastro ainda? <a href="cadastro.php">Cadastre-se</a></p>
                     </form>
                 </div>
             </div>
         </section>
     </main>
-
 </body>
 
 </html>

@@ -9,14 +9,10 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
@@ -24,7 +20,6 @@
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
 </head>
@@ -57,7 +52,6 @@
 
         <div class="carousel-inner" role="listbox">
 
-          <!-- Slide 1 -->
           <div class="carousel-item active" style="background: url(assets/img/slide/img1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
@@ -67,7 +61,6 @@
             </div>
           </div>
 
-          <!-- Slide 2 -->
           <div class="carousel-item" style="background: url(assets/img/slide/img1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
@@ -77,7 +70,6 @@
             </div>
           </div>
 
-          <!-- Slide 3 -->
           <div class="carousel-item" style="background: url(assets/img/slide/img1.jpg)">
             <div class="carousel-container">
               <div class="carousel-content">
@@ -101,7 +93,7 @@
 
       </div>
     </div>
-  </section><!-- End Hero -->
+  </section>
 
   <main id="main">
     <br>
@@ -112,7 +104,6 @@
     <br>
     <br>
 
-    <!-- ======= About Section ======= -->
     <section id="about" class="about">
       <div class="container">
         <div class="section-title" data-aos="fade-up">
@@ -124,10 +115,9 @@
           é só buscar por esse perfil dentro da plataforma.
         </p>
       </div>
-    </section><!-- End About Section -->
+    </section>
 
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services">
+    <section id="vagas" class="vagas">
       <div class="container">
 
         <div class="section-title" data-aos="fade-up">
@@ -198,11 +188,10 @@
         </div>
 
       </div>
-    </section><!-- End Services Section -->
+    </section>
 
-  </main><!-- End #main -->
+  </main>
 
-  <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="footer-top">
@@ -242,18 +231,12 @@
       <div class="copyright">
         &copy; Copyright <strong><span>EmpregaQI</span></strong>. Todos os direitos reservados
       </div>
-      <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/eterna-free-multipurpose-bootstrap-template/ -->
-      </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
 
-  <!-- Vendor JS Files -->
+
   <script src="assets/vendor/jquery/jquery.min.js"></script>
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
@@ -265,7 +248,6 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/venobox/venobox.min.js"></script>
 
-  <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
 </body>
