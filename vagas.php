@@ -9,29 +9,20 @@
   <meta content="" name="description">
   <meta content="" name="keywords">
 
-  <!-- Favicons -->
-
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
   <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link href="assets/css/vagas.css" rel="stylesheet">
 
 </head>
 
 <body>
 
-  <!-- ======= Header ======= -->
   <header id="header">
     <div class="container d-flex">
 
@@ -47,12 +38,80 @@
           <li><a href="login.php"><input type="button" class="btn btn-primary btn-sm" id="btn1" value="Login"></a></li>
         </ul>
       </nav>
-
     </div>
   </header>
 
-  <main id="main">
- 
+  <section id="vagas" class="vagas">
+    <div class="container">
+
+      <h2 id="frase_vagas">Aqui você irá encontar as vagas que estão disponíveis no momento:</h2>
+
+      <div class="row">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Auxiliar de Produção</a></h4>
+            <p>Empresa: Araupel</p>
+            <p>Média salarial: R$1600,00</p>
+            <p>*Nescesssário experiência.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4>Técnico em Informática</h4>
+            <p>Empresa: Ativa Informática</p>
+            <p>Média salarial: R$2000,00</p>
+            <p>*Nescesssário experiência.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Analista de Qualidade de Software</a></h4>
+            <p>Empresa: Visual Software</p>
+            <p>Média salarial: R$1300,00</p>
+            <p>*Nescesssário ensino fundamental completo.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Técnico em Informática</a></h4>
+            <p>Empresa: Ativa Informática</p>
+            <p>Média salarial: R$2000,00</p>
+            <p>*Nescesssário experiência.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Analista de Qualidade de Software</a></h4>
+            <p>Empresa: Visual Software</p>
+            <p>Média salarial: R$1300,00</p>
+            <p>*Nescesssário ensino fundamental completo.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+          <div class="icon-box boxvagas">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4><a href="">Auxiliar de Produção</a></h4>
+            <p>Empresa: Araupel</p>
+            <p>Média salarial: R$1600,00</p>
+            <p>*Nescesssário experiência.</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
   <footer id="footer">
 
     <div class="footer-top">
@@ -92,13 +151,22 @@
       <div class="copyright">
         &copy; Copyright <strong><span>EmpregaQI</span></strong>. Todos os direitos reservados
       </div>
-      <div class="credits">
-
-      </div>
     </div>
   </footer>
 
   <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/jquery-sticky/jquery.sticky.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <script src="assets/js/main.js"></script>
 
 </body>
 

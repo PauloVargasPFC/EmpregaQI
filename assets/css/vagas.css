@@ -573,27 +573,12 @@ p#inf {
     font-size: 14pt;
 }
 
-div#teste {
-    width: 500px;
+#frase_vagas{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-size: 25px;
 }
 
-div#teste2 {
+.boxvagas{
     width: 500px;
 }
-
-div#teste3 {
-    width: 500px;
-}
-
-div#teste4 {
-    width: 500px;
-}
-
-div#teste5 {
-    width: 500px;
-}
-
-div#teste6 {
-    width: 500px;
-}
-
