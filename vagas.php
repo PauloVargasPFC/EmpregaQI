@@ -41,10 +41,21 @@
     </div>
   </header>
 
-  <section id="vagas" class="vagas">
+  <section class="vagas">
     <div class="container">
 
-      <h2 id="frase_vagas">Aqui você irá encontar as vagas que estão disponíveis no momento:</h2>
+      <h2 style="text-align: center; font-style: Italic; font-size: 26px; padding-top: 30px; padding-bottom: 30px;">Aqui você irá encontar as vagas que estão disponíveis no momento:</h2>
+
+      <div>
+        <form class="form-inline">
+            <div class="form-group mb-2">
+              <input class="form-control" type="text" placeholder="Busque por vagas">
+            </div>
+            <div class="md-2">
+              <button type="submit" class="btn btn-primary">Buscar</button>
+            </div>
+        </form>
+      </div>
 
       <div class="row">
         <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
@@ -57,10 +68,10 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
+        <div class="col-lg-4 col-md-6 d-flex align-items-stretch">
           <div class="icon-box boxvagas">
             <div class="icon"><i class="bx bx-file"></i></div>
-            <h4>Técnico em Informática</h4>
+            <h4><a href="">Técnico em Informática</a></h4>
             <p>Empresa: Ativa Informática</p>
             <p>Média salarial: R$2000,00</p>
             <p>*Nescesssário experiência.</p>

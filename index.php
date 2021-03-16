@@ -8,7 +8,7 @@
   <title>Emprega QI</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-  
+
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -132,10 +132,10 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
-            <div class="icon-box" id="teste2">
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
+            <div class="icon-box" id="teste4">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4>Técnico em Informática</h4>
+              <h4><a href="">Técnico em Informática</a></h4>
               <p>Empresa: Ativa Informática</p>
               <p>Média salarial: R$2000,00</p>
               <p>*Nescesssário experiência.</p>
@@ -184,9 +184,11 @@
 
         </div>
 
-        <a href="vagas.php"><div style="text-align: center; margin: auto; background-color: #13471581; margin-top: 10px; color: white; width: 500px; border-radius:10px;">
-          Ver todas as vagas...
-        </div></a>
+        <a href="vagas.php">
+          <div style="text-align: center; margin: auto; background-color: #13471581; margin-top: 10px; color: white; width: 500px; border-radius:10px;">
+            Ver todas as vagas...
+          </div>
+        </a>
 
       </div>
     </section>

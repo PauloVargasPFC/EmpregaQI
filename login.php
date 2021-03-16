@@ -44,7 +44,7 @@
                         <label for="inputPassword" class="visually-hidden"></label>
                         <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
                         <div class="checkbox mb-3">
-                        <label><input type="checkbox" value="remember-me"> Lembre-se</label>
+                            <label><input type="checkbox" value="remember-me"> Lembre-se</label>
                         </div>
                         <button class="w-100 btn btn-lg btn-primary" type="submit">Login</button>
                         <p>Não possui Cadastro ainda? <a href="cadastro.php">Cadastre-se</a></p>
