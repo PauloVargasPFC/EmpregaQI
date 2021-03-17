@@ -132,16 +132,6 @@
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
-            <div class="icon-box" id="teste4">
-              <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Técnico em Informática</a></h4>
-              <p>Empresa: Ativa Informática</p>
-              <p>Média salarial: R$2000,00</p>
-              <p>*Nescesssário experiência.</p>
-            </div>
-          </div>
-
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div class="icon-box" id="teste3">
               <div class="icon"><i class="bx bx-file"></i></div>
@@ -149,6 +139,16 @@
               <p>Empresa: Visual Software</p>
               <p>Média salarial: R$1300,00</p>
               <p>*Nescesssário ensino fundamental completo.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
+            <div class="icon-box" id="teste3">
+              <div class="icon"><i class="bx bx-file"></i></div>
+              <h4><a href="">Desenvolvedor Delphi</a></h4>
+              <p>Empresa: Visual Software</p>
+              <p>Média salarial: R$3600,00</p>
+              <p>*Necessário esperiência na área.</p>
             </div>
           </div>
 
@@ -165,20 +165,20 @@
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box" id="teste5">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Analista de Qualidade de Software</a></h4>
-              <p>Empresa: Visual Software</p>
-              <p>Média salarial: R$1300,00</p>
-              <p>*Nescesssário ensino fundamental completo.</p>
+              <h4><a href="">Operador de Máquina</a></h4>
+              <p>Empresa: Araupel</p>
+              <p>Média salarial: R$2300,00</p>
+              <p>*Nescesssário esperiência.</p>
             </div>
           </div>
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div class="icon-box" id="teste6">
               <div class="icon"><i class="bx bx-file"></i></div>
-              <h4><a href="">Auxiliar de Produção</a></h4>
-              <p>Empresa: Araupel</p>
-              <p>Média salarial: R$1600,00</p>
-              <p>*Nescesssário experiência.</p>
+              <h4><a href="">Vendedor</a></h4>
+              <p>Empresa: Concretiza</p>
+              <p>Média salarial: R$1300,00</p>
+              <p>*Nescesssário ensino médio completo.</p>
             </div>
           </div>
 

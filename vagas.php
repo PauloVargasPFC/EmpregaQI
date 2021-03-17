@@ -46,15 +46,13 @@
 
       <h2 style="text-align: center; font-style: Italic; font-size: 26px; padding-top: 30px; padding-bottom: 30px;">Aqui você irá encontar as vagas que estão disponíveis no momento:</h2>
 
-      <div>
-        <form class="form-inline">
-            <div class="form-group mb-2">
-              <input class="form-control" type="text" placeholder="Busque por vagas">
-            </div>
-            <div class="md-2">
-              <button type="submit" class="btn btn-primary">Buscar</button>
-            </div>
-        </form>
+      <div class="row">
+        <div class="col-7" style="margin: auto; padding-bottom: 30px;">
+          <form class="form-inline">
+            <input type="text" class="form-control" placeholder="Buscar Vagas" style="width: 500px;">
+            <button type="submit" class="btn btn-primary" style="margin-left: 20px;">Buscar</button>
+          </form>
+        </div>
       </div>
 
       <div class="row">
