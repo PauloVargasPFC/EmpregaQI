@@ -1,2 +1,2 @@
-# PFC
- 
+A plataforma Emprega QI foi desenvolvida a partir do pressuposto de desenvolver um Projeto Final de Curso.
+A mesma é uma plaraforma web cujo objetivo é gerenciar vagas e currículos disponíveis na cidade de Quedas do Iguaçu.
