@@ -1,7 +1,8 @@
 <?php
+session_start();
 include('processo.php');
 
-if(empty($_POST['login']) || empty($_POST['senha'])){
+if (empty($_POST['login']) || empty($_POST['senha'])) {
     header('Location: login.php');
     exit();
 }
@@ -15,8 +16,12 @@ $result = mysqli_query($conexao, $query);
 
 $row = mysqli_num_rows($result);
 
-if($row == 1){
-
-} else{
-    
+if ($row == 1) {
+    $_SESSION['login'] = $login;
+    header('Location: loginsucess.php');
+    exit();
+} else {
+    $_SESSION['nao_autenticado'] = true;
+    header('Location: login.php');
+    exit();
 }

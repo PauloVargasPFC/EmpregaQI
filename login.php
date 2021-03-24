@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -39,7 +43,19 @@
                 <div class="formulario_login">
                     <form action="loginaux.php" method="POST">
                         <h2 style="text-align: center; font-family: Poppins, sans-serif;">Login</h2>
-                        <label for="inputEmail" class="visually-hidden"></label>
+
+                        <?php
+                        if (isset($_SESSION['nao_autenticado'])) :
+                        ?>
+                            <div style="color: white; background-color: rgba(255, 0, 0, 0.349); 
+                        padding: 2px; border-radius: 10px; margin-bottom: 10px; text-align: center;">
+                                <h6>Usuário e/ou senha inválido(s)!</h6>
+                            </div>
+                        <?php
+                        endif;
+                        unset($_SESSION['nao_autenticado']);
+                        ?>
+
                         <input type="email" name="login" class="form-control" placeholder="Email" required autofocus>
                         <label for="inputPassword" class="visually-hidden"></label>
                         <input type="password" name="senha" class="form-control" placeholder="Senha" required>

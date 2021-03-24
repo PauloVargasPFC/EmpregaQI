@@ -105,4 +105,16 @@ h6 {
 }
 input#btn1 {
     padding: 5px 15px;
+    
+}
+
+#login-sucesso{
+    color: white;
+    width: 500px;
+    border-radius: 20px;
+    margin: auto;
+    background-color: rgba(28, 88, 38, 0.548);
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
 }
