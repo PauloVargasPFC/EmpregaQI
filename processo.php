@@ -1,3 +1,8 @@
-<? php 
-$ mysqli = mysqli ( 'localhost' , 'root' , '' , 'crud' ) ou die ( mysql_error ( $ mysqli ));
- ?>
+<?php
+define('HOST', '127.0.0.1');
+define('USUARIO', 'root');
+define('SENHA', '');
+define('DB', 'pfc');
+
+$conexao = mysqli_connect(HOST, USUARIO, SENHA, DB) or die ('Não foi possível concetar.');
+?>

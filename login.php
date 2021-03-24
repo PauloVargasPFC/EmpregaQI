@@ -37,12 +37,12 @@
         <section id="about" class="about">
             <div class="cont_login">
                 <div class="formulario_login">
-                    <form>
+                    <form action="loginaux.php" method="POST">
                         <h2 style="text-align: center; font-family: Poppins, sans-serif;">Login</h2>
                         <label for="inputEmail" class="visually-hidden"></label>
-                        <input type="email" id="inputEmail" class="form-control" placeholder="Email" required autofocus>
+                        <input type="email" name="login" class="form-control" placeholder="Email" required autofocus>
                         <label for="inputPassword" class="visually-hidden"></label>
-                        <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required>
+                        <input type="password" name="senha" class="form-control" placeholder="Senha" required>
                         <div class="checkbox mb-3">
                             <label><input type="checkbox" value="remember-me"> Lembre-se</label>
                         </div>
